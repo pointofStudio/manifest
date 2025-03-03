@@ -23,6 +23,10 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
 
+    <remote name="build-tools"
+          fetch="https://android.googlesource.com/platform/prebuilts/build-tools"
+          revision="thirteen" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -136,7 +140,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="build-tools" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
