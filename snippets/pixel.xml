@@ -7,7 +7,7 @@
           review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-gitlab-gms"
-          fetch="https://gitlab.com/pixelos-aosp/vendor_gms-13.git"
+          fetch="https://gitlab.com/pointofStudio/vendor_gms-13.git"
           revision="thirteen" />
   
   <remote name="pixel-gitlab"
