@@ -140,7 +140,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="build-tools" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
